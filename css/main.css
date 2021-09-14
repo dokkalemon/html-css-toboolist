@@ -61,3 +61,65 @@ header {
     border: 1px solid #47adf1;
     color: white
 }
+
+
+/* LIST SECTION */
+.list_item {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.item_content {
+    margin-top: 30px;
+}
+
+.triangle {padding: 0 5px; }
+.checked {
+    
+    border-radius: 20px;
+    padding: 1px 4px;
+    color: #64c0a9;
+    border: 1px solid #64c0a9
+}
+
+.unchecked {
+    
+    border-radius: 20px;
+    padding: 4px 5px;
+    color: red;
+    border: 1px solid red;
+    font-size: 10px;
+    vertical-align: middle;
+    
+}
+
+.label {
+    padding: 5px 10px; 
+    font-size: 12px;
+    border-radius: 10px;
+    color: white
+}
+
+.blue_label {
+    background-color: #45abea;
+}
+
+.purple_label {
+    background-color: #9c72e4;
+}
+
+.green_label {
+    background-color: #64c0a9;
+}
+
+.orange_label {
+    background-color: orange;
+}
+
+.violet_label {
+    background-color: #d863a1;
+}
+
+.secondgreen_label {
+    background-color: #b0c926;
+}
