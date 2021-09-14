@@ -7,9 +7,13 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     background-color: #f6f8f9;
 }
+
+section {padding: 15px 70px}
 
 
 /* HEADER */
@@ -26,4 +30,34 @@ header {
 .logo_text {
     display: inline-block;
     vertical-align: middle
+}
+
+
+
+/* MAIN SECTION */
+.conteiner {
+    width: 60%; 
+    margin: 0 auto; 
+    background-color: #fff;
+    margin-top: 35px;
+}
+
+
+
+/* BUTTON SECTION */
+.button_section {
+    border-bottom: 1px solid #f6f8f9;
+}
+.button {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #c5cbd0;
+    color: #c5cbd0;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+    color: white
 }
