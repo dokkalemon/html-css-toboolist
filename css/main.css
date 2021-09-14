@@ -6,3 +6,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #f6f8f9;
+}
+
+
+/* HEADER */
+header {
+    background-color: #fff;
+    padding: 10px 10px;
+    
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.logo_text {
+    display: inline-block;
+    vertical-align: middle
+}
